@@ -1,0 +1,47 @@
+figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+.listing .item-image img {
+    position: absolute;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    z-index: 9;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, big, cite, code, del, dfn, em, img, ins, q, s, small, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, abbr, article, aside, audio, canvas, datalist, details, summary, dialog, figcaption, figure, footer, header, main, mark, menu, meter, nav, output, progress, section, time, video{
+    padding: 0;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+.item {
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    color: #333;
+    font-weight: 300;
+    position: relative;
+}
+
+.item p{
+	font-size: 20px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+
+.item, .item:before, .item:after, .item * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

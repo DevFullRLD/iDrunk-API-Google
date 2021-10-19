@@ -1,0 +1,142 @@
+@import url('../font-awesome.min.css');
+
+body{
+  background-color: #ffffff;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.night{
+  background-color: #1F1F1F;
+	color: #E0E0E0;
+}
+
+.night hr{
+	color: rgba(255,255,255, .3);
+	border-color: rgba(255,255,255, .3);
+}
+
+.dntoggle{
+  font-size: 28px;
+  border-radius: 100px;
+  background-color: #111111;
+  padding: 7.5px;
+  color:#fcfcfc;
+  box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.fa-moon-o:before{
+  padding:0 2px;
+}
+.fa-sun-o{
+  background-color: #fcfcfc;
+  color:#111111;
+}
+
+.fa-sun-o:before{
+	padding:0 2px;
+}
+
+/* Load Screen */
+
+.night .pre-load {
+	background-color: #1F1F1F;
+}
+
+
+/* Alertas */
+
+.night .alert {
+    background-color: #3C0001;
+    color: #E0E0E0;
+}
+
+.night .alert.success {background-color: #005503;}
+.night .alert.info {background-color: #0961A7;}
+.night .alert.warning {background-color: #CE6700;}
+
+.night .closebtn {
+    color: #E0E0E0;
+}
+
+.night .closebtn:hover {
+    color: #3C3C3C;
+}
+
+/* Botões ON/OFF */
+
+.night .slider {
+  background-color: #ccc;
+}
+
+.night .slider:before {
+  background-color: #E0E0E0;
+}
+
+input:checked + .slider {
+  background-color: #3C0001;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FFAD5B;
+}
+
+/* Cor do Wrapper */
+
+.night .wrapper .div-style {
+  border: 1px solid rgba(255, 255, 255, .3);
+	color: #E0E0E0;
+}
+
+.night .wrapper hr{
+	background-color: rgba(255,255,255, .2);
+	color: rgba(255,255,255, .2);
+	border-color: rgba(255,255,255, .2);
+}
+
+/* Cor da side e navbar */
+
+.night .sidenav {
+	background-color: #3C0001;
+}
+
+.night .sidenav hr{
+	color: rgba(255,255,255, .3);
+	border-color: rgba(255,255,255, .3);
+}
+
+.night .navbar{
+	background-color: #3C0001;
+}
+
+.night .navbar span{
+	color: #E0E0E0;
+}
+
+.night .navbar button{
+	border-color: rgba(255,255,255, .3);
+}
+
+/* Cor dos botões */
+
+.night .btn-success {
+	background-color: #005503;
+	color: #E0E0E0;
+	border-color: rgba(0,255,255, .5);
+}
+
+.night .btn-warning{
+	background-color: #A65300;
+	color: #E0E0E0;
+	border-color: rgba(255,83,13, .75);
+}
+
+.night .btn-danger{
+	background-color: #3C0001;
+	color: #E0E0E0;
+	border-color: rgba(255,0,0, .5);
+}

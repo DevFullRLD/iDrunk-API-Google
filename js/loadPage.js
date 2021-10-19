@@ -1,0 +1,1 @@
+var fadeOut=function(){"use strict";$(".pre-load").fadeOut("slow")};$(document).ready(function(){"use strict";setTimeout(fadeOut,750)});
